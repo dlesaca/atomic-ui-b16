@@ -1,0 +1,34 @@
+main {
+	width: 1300px;
+	margin: auto;
+}
+
+.login-reg {
+	float: right;
+}
+
+header {
+	background-color: #E2E0DF;
+	padding: 2px 20px 2px 20px;
+}
+
+article {
+	background-color: #E2E0DF;
+	padding: 40px 40px 100px 40px;
+	text-align: center;
+	overflow: hidden;
+}
+
+article h1.art-header {
+	margin-bottom:  40px;
+	font-weight: 800;
+	font-size: 25px;
+	color: #081B23;
+}
+
+footer {
+	padding: 5px;
+	background: grey;
+	color: white;
+	text-align: center;
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<link href='http://fonts.googleapis.com/css?family=PT+Serif' rel='stylesheet' type='text/css'>
+	  <link href='http://fonts.googleapis.com/css?family=Raleway:500,700,800' rel='stylesheet' type='text/css'>
+	  <link rel="stylesheet" type="text/css" href="base.css">
+	  <link rel="stylesheet" type="text/css" href="layout.css">
+	  <link rel="stylesheet" type="text/css" href="module.css">
+	  <link rel="stylesheet" type="text/css" href="state.css">
+	  <link rel="stylesheet" type="text/css" href="theme.css">
+	  <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+  </head>
+  <body>
+  	<main>
+	    <header>
+	    	<a href="#"><img src="wobegon-logo.png"></a>
+	    	<div class="login-reg"><a href="#">Login</a> | <a href="#">Register</a></div>
+	    	<nav></nav>
+	    </header>
+	    <section class="modal-1">
+		    <h1 class="modal-1-heading">LET US HELP YOU.</h1>
+		    <p>Tofu Vice gentrify you probably haven’t heard of them. Selvage single-origin coffee letterpress Vice.</p>
+		    <a href="#" class="btn report active">Report Vandalism</a>
+		    <a href="#" class="btn chat">Emergency Chat</a>
+	  	</section>
+	  	<div class="triangle-up"></div>
+	    <article class="info-block-1">
+	    	<h1 class="art-header">HOW REPORTING VANDALISM WORKS</h1>
+	    	<section class="container-modal-2">
+	    		<h1 class="modal-2">Describe the Incident</h1>
+	    		<p "modal-2">Tofu Vice gentrify you probably haven’t heard of them. Selvage single-origin coffee letterpress Vice.</p>
+	    	</section>
+	    	<section class="container-modal-2">
+	    		<h1 class="modal-2">Capture the Incident</h1>
+	    		<p "modal-2">Tofu Vice gentrify you probably haven’t heard of them. Selvage single-origin coffee letterpress Vice.</p>
+	    	</section>
+	    	<section class="container-modal-2">
+	    		<h1 class="modal-2">Schedule Estimation</h1>
+	    		<p "modal-2">Tofu Vice gentrify you probably haven’t heard of them. Selvage single-origin coffee letterpress Vice.</p>
+	    	</section>
+	    </article>
+
+	    <article class="info-block-2 hide-shit">
+	    	<h1 class="art-header">HOW EMERGENCY CHAT WORKS</h1>
+	    	<section class="container-modal-2">
+	    		<h1 class="modal-2">Interact with a live operator</h1>
+	    		<p "modal-2">Tofu Vice gentrify you probably haven’t heard of them. Selvage single-origin coffee letterpress Vice.</p>
+	    	</section>
+	    	<section class="container-modal-2">
+	    		<h1 class="modal-2">Tell us about your situation</h1>
+	    		<p "modal-2">Tofu Vice gentrify you probably haven’t heard of them. Selvage single-origin coffee letterpress Vice.</p>
+	    	</section>
+	    </article>
+	    <footer>Copyright blah blah blah</footer>
+    </main>
+   <script> 
+   	$(".report").click(function(){
+   		$(".info-block-1").removeClass("hide-shit")
+   		$(".info-block-2").addClass("hide-shit")
+   		$(".report").addClass("active")
+   		$(".chat").removeClass("active")
+   		$(".triangle-up").removeClass("triangle-chat")
+   	});
+
+   	$(".chat").click(function(){
+   		$(".info-block-2").removeClass("hide-shit")
+   		$(".info-block-1").addClass("hide-shit")
+   		$(".report").removeClass("active")
+   		$(".chat").addClass("active")
+   		$(".triangle-up").addClass("triangle-chat")
+   	});
+
+ 	 </script>
+  </body>
+</html>

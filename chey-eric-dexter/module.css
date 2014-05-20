@@ -1,0 +1,50 @@
+/*HOW IT WORKS MODULE*/
+
+/*MODULE ONE*/
+
+.modal-1 {
+	font-weight: 800;
+	text-align: center;
+	padding: 100px 0 100px 0;
+	width: 50%;
+	margin: auto;
+}
+
+.modal-1 p {
+	margin-bottom: 50px;
+}
+
+.modal-1-heading {
+	font-size: 30px;
+	font-weight: 800;
+	margin-bottom: 20px;
+	color: #DB3B24 ;
+}
+
+/*MODAL TWO*/
+
+.modal-2 {
+	margin-bottom: 10px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 800;
+	color: #DB3B24;
+}
+
+.container-modal-2 {
+	float: left;
+	width: 400px;
+	margin-right: 4px;
+}
+
+/*BUTTON STYLES*/
+
+.btn {
+	background-color: #DB3B24;
+	color: white;
+	padding: 10px;
+	font-size: 16px;
+	border-radius: 12px;
+	border: 1px solid #E2E0DF;
+	text-decoration: none;
+}
+
